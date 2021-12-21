@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+}
+table , td, th {
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: center;
+    padding: 15px 10px;
+}
+th{
+    background-color: rgb(187, 187, 187);
+}
+
+.wrap{
+    width: 1190px;
+    margin: 0 auto;
+    height: 150%;
+}
+body{
+    background: #191919;
+    height: 100%;
+}
+
+.col_left{
+    background: grey;
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.col_left img{
+    max-width: 100%;
+    margin: 15% 0;
+}
+
+
+.col_right{
+    width: 70%;
+    height: 100%;
+    background: white;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: right;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 15px 0 15px;
+}
+.col_left h2{
+    text-transform: uppercase;
+}
+
+h2::first-letter{
+    font-size: 3rem;
+}
+p{
+    line-height: 1.7;
+}
+
+ul{
+    list-style: disc inside;  
+}
+
+ul ul{
+    list-style: circle inside;
+    margin: 0 0 0 2rem;
+}
+caption{
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width:480px) {
+    .col_left{
+        width: 100%;
+        float: none;
+    }
+    .col_right{
+        width: 100%;
+        float: none;
+    }
+    .wrap{
+        width: 100%;
+    }
+    body{
+        background: white;
+    }
+}
