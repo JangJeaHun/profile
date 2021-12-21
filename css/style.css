@@ -15,7 +15,7 @@ th, td {
     text-align: center;
     padding: 15px 10px;
 }
-th{
+th{ 
     background-color: rgb(187, 187, 187);
 }
 
@@ -39,7 +39,7 @@ body{
 }
 .col_left img{
     max-width: 100%;
-    margin: 15% 0;
+    margin: 10% 0;
 }
 
 
@@ -63,6 +63,8 @@ h2{
 
 h2::first-letter{
     font-size: 3rem;
+    background-color:#f397df
+    
 }
 p{
     line-height: 1.7;
@@ -80,6 +82,10 @@ caption{
     margin: 15px 0;
 }
 
+.buttons img{
+    margin: 7% auto; 
+    display: flex;
+}
 
 @media screen and (max-width:480px) {
     .col_left{
